@@ -1,6 +1,6 @@
 # 小坦克大战 🎮
-![Uploading 120cf8fbd1d37f9ee2dbb57c0f448eeb.png…]()
-![Uploading 26a32c19d8084b3319e73ff550f6c138.png…]()
+
+<img width="844" height="737" alt="120cf8fbd1d37f9ee2dbb57c0f448eeb" src="https://github.com/user-attachments/assets/907e5057-9c1e-41f7-b22e-47900027a0c9" />
 
 一个 **Battle City** 风格的坦克对战游戏，纯 HTML5 Canvas 实现。
 
