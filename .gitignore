@@ -1,0 +1,8 @@
+.cray/
+full-output.txt
+plane-game-backup.html
+snake-game.html
+plane-game.html
+scripts/
+*.bak
+*.log
