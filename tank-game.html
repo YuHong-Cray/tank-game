@@ -480,7 +480,7 @@ function rectCollide(x1, y1, w1, h1, x2, y2, w2, h2) {
 }
 
 // ---- 玩家 ----
-let player = new Tank(380, 520, '#ffffff', 'up', true);
+let player = new Tank(2, 562, '#ffffff', 'up', true);
 
 function playerHit() {
   if (!player.alive) return;
@@ -493,7 +493,7 @@ function playerHit() {
   } else {
     setTimeout(() => {
       if (game.gameOver) return;
-      player = new Tank(380, 520, '#ffffff', 'up', true);
+      player = new Tank(2, 562, '#ffffff', 'up', true);
       player.alive = true;
     }, 800);
   }
@@ -942,7 +942,7 @@ function drawOverlay() {
 function initGame() {
   if (frameId) cancelAnimationFrame(frameId);
   game = { score: 0, lives: 3, level: 1, gameOver: false, paused: false, won: false };
-  player = new Tank(380, 520, '#ffffff', 'up', true);
+  player = new Tank(2, 562, '#ffffff', 'up', true);
   enemies = []; bullets = []; particles = []; explosions = [];
   base = { x: 380, y: 560, w: 40, h: 40, hp: 5, maxHp: 5, alive: true, shieldTimer: 0, hitTimer: 0, immuneTimer: 0 };
   spawnTimer = 60;
